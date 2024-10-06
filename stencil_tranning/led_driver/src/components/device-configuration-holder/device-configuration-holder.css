@@ -1,0 +1,47 @@
+.device-configuration-holder {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(112, 110, 110, 0.6);
+  /* height: calc(100vh - 270px); */
+  margin: 15px;
+  padding: 45px;
+  width: calc(100vw - 550px);
+}
+
+.device-configuration-placeholder {
+  color: gray;
+  font-size: 1.6rem;
+  letter-spacing: 1.25px;
+  opacity: 0.5;
+}
+
+.device-configuration-header {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 15px;
+  margin-top: 20px;
+  position: relative;
+  width: 250px;
+}
+
+.view {
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: bold;
+  letter-spacing: 1.25px;
+  padding: 5px;
+}
+
+.view:hover {
+  background-color: red;
+}
+
+.inactive-layer {
+  background-color: white;
+  cursor: not-allowed;
+  height: 100%;
+  mix-blend-mode: color;
+  position: absolute;
+  width: 100%;
+}

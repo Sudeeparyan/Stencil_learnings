@@ -1,0 +1,60 @@
+error-flag {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  row-gap: 8px;
+}
+
+.resolve-time {
+  color: grey;
+}
+
+.error-indicator,
+.positive-indicator {
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+}
+
+.error-indicator {
+  background-color: red;
+  box-shadow: 0px 0px 8px rgba(255, 0, 0, 0.8);
+}
+
+.positive-indicator {
+  background-color: green;
+  box-shadow: 0px 0px 8px rgba(0, 255, 0, 0.8);
+}
+
+.error-placeholder,
+.clear-button {
+  letter-spacing: 1.25px;
+}
+
+.error-placeholder {
+  color: grey;
+}
+
+.clear-button {
+  background-color: #118899;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  height: 25px;
+  margin: 0 0 5px 5px;
+  width: 65px;
+}
+
+.inactive-layer {
+  background-color: white;
+  border-radius: 5px;
+  cursor: not-allowed;
+  height: 100%;
+  mix-blend-mode: color;
+  padding: 5px;
+  position: absolute;
+  width: 100%;
+}

@@ -1,0 +1,30 @@
+dropdown-list {
+  position: absolute;
+  top: 70px;
+  width: 130px;
+  z-index: 1;
+}
+
+.drop-down-holder {
+  align-items: center;
+  background-color: white;
+  box-shadow: 0 0 1px black;
+  display: flex;
+  height: 40px;
+  padding-left: 10px;
+}
+
+.drop-down-holder:first-child {
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.drop-down-holder:last-child {
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.drop-down-holder:hover {
+  background-color: rgb(235, 234, 234);
+  cursor: pointer;
+}

@@ -1,0 +1,8 @@
+.header-title {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  height: 40px;
+  letter-spacing: 1.25px;
+  padding: 10px 0 0 10px;
+}

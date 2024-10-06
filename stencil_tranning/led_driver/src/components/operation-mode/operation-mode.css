@@ -1,0 +1,38 @@
+operation-mode {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  row-gap: 8px;
+}
+
+.configuration-title {
+  font-weight: bold;
+  letter-spacing: 1.25px;
+}
+
+.operation-mode-icon {
+  height: 30px;
+  width: 30px;
+}
+
+.current-operation {
+  color: #118899;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.configuration-holder {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  letter-spacing: 1.25px;
+  width: 150px;
+}
+
+.drop-down-icon {
+  cursor: pointer;
+  filter: invert(0.5);
+  height: 15px;
+}

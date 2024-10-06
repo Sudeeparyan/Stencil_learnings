@@ -1,0 +1,9 @@
+.configuration-section {
+  align-items: center;
+  background-color: white;
+  box-shadow: 0 2px 0.5rem rgba(0, 0, 0, 0.4);
+  column-gap: 20px;
+  display: flex;
+  height: 100px;
+  padding: 0 30px;
+}
