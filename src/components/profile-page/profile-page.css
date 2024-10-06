@@ -1,0 +1,25 @@
+:host {
+  display: block;
+}
+.user-profile {
+  width: 200px;
+  height: 200px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.profile-box {
+  display: flex;
+  margin: 50px;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+.profile-box div {
+  display: flex;
+  justify-content: center;
+}
+p {
+  font-size: 20px;
+}
+b {
+  color: rgb(244, 41, 37);
+}

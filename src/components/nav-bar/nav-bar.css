@@ -1,0 +1,17 @@
+:host {
+  display: block;
+}
+.navbar {
+  background-color: rgb(31, 174, 217);
+  padding: 10px;
+}
+.navItems {
+  display: flex;
+  justify-content: space-evenly;
+  width: 35%;
+  font-size: 18px;
+}
+.navItems a {
+  text-decoration: none;
+  color: white;
+}
